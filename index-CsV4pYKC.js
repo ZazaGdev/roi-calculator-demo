@@ -48594,40 +48594,6 @@ const P1 = {
                 ],
             }),
         }),
-    fI = () => {
-        const e = R3();
-        return (
-            O.useEffect(() => {
-                console.error(
-                    "404 Error: User attempted to access non-existent route:",
-                    e.pathname
-                );
-            }, [e.pathname]),
-            E.jsx("div", {
-                className:
-                    "min-h-screen flex items-center justify-center bg-gray-100",
-                children: E.jsxs("div", {
-                    className: "text-center",
-                    children: [
-                        E.jsx("h1", {
-                            className: "text-4xl font-bold mb-4",
-                            children: "404",
-                        }),
-                        E.jsx("p", {
-                            className: "text-xl text-gray-600 mb-4",
-                            children: "Oops! Page not found",
-                        }),
-                        E.jsx("a", {
-                            href: "/",
-                            className:
-                                "text-blue-500 hover:text-blue-700 underline",
-                            children: "Return to Home",
-                        }),
-                    ],
-                }),
-            })
-        );
-    },
     dI = () =>
         E.jsxs(_3, {
             children: [
